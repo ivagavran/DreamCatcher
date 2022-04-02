@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Dream Catcher</string>
+    <string name="hint_dream_description_input">Describe your dream here.</string>
+    <string name="label_save_dream">SAVE DREAM</string>
+    <string name="label_color_red">RED</string>
+    <string name="label_color_yellow">YELLOW</string>
+    <string name="label_color_blue">BLUE</string>
+    <string name="label_color_black">BLACK</string>
+    <string name="color_choice">COLOR:</string>
+    <string name="dream_description">DESCRIPTION:</string>
+    <string name="date_description">DATE:</string>
+    <string name="dream_saving">Saving dream</string>
+</resources>

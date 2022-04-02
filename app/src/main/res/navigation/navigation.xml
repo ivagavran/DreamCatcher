@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/dreamListFragment">
+
+    <fragment
+        android:id="@+id/dreamListFragment"
+        android:name="hr.ferit.ivagavran.dreamcatcher.ui.dream_list.DreamListFragment"
+        android:label="DreamListFragment"
+        tools:layout="@layout/fragment_dream_list">
+        <action
+            android:id="@+id/action_dreamListFragment_to_newDreamFragment"
+            app:destination="@id/newDreamFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/newDreamFragment"
+        android:name="hr.ferit.ivagavran.dreamcatcher.ui.dream_new.NewDreamFragment"
+        android:label="NewDreamFragment"
+        tools:layout="@layout/fragment_new_dream">
+        <action
+            android:id="@+id/action_newDreamFragment_to_dreamListFragment"
+            app:destination="@id/dreamListFragment" />
+    </fragment>
+</navigation>
